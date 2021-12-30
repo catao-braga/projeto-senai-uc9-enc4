@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
     <title>MOOD</title>
 </head>
 
@@ -14,11 +15,11 @@
 
 
         <!-- TOP NAVBAR -->
-        <nav class="navbar navbar-light bg-light">
+
+        <nav class="navbar">
             <div class="container-fluid">
-                <a class="navbar-brand text-primary fw-bolder" href="#">
-                    <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24"
-                        class="d-inline-block align-text-top">
+                <a class="navbar-brand" href="index.html">
+                    <img src="#" alt="" width="30" height="24" class="d-inline-block align-text-top">
                     MOOD
                 </a>
             </div>
@@ -26,75 +27,88 @@
 
         <!-- MIDDLE -->
 
+        <div class="d-grid row justify-content-center  mt-5 mb-2">
+            <div class="title col-12 ">
+                <h1 id="title-block" class="text-primary fw-bold">Motivation</h1>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center mt-5 mb-5">
+            <div class="d-flex align-items-center justify-content-center c-img bg-image shadow rounded mx-auto d-block"
+                style="background-image: url('/assets/img/1637577514003.jpg'); height: 60vh; width: 60vw; object-fit: cover;">
+                <div class=" img-fix  bg-white p-4 shadow">
+                    <h2 class="c-t tweak">We can do something.
+                    </h2>
+                    <p class="c-t tweak">
+                        That was the thought we had in mind when MOOD was created.
+                        MAKE OUT OUR DREAMS, not speaking like 'our' are 'us', the founders, but
+                        the world.
+
+                        We want to create projects that are bigger than us, influence change, conservation awareness.
+                    </p>
+                </div>
+            </div>
+        </div>
 
         <!-- FOOTERS -->
-        <footer id="footer ">
+        <div class="container mt-5 ">
             <div class="container container--xxl container--fluid _p-y-6">
                 <div class="row" id="footer_menu">
-                    <div class="col-sm col--12 col--auto--m _text-center _m-b-4 _m-b-0--m">
+                    <div class="col col--12 col--auto--m _text-center _m-b-4 _m-b-0--m">
                         <nav class="nav nav--vertical nav--large-padding _text-center _text-left--m">
                             <ul class="list-unstyled">
-                                <li class="text-dark fw-bold fs-5">Website</li>
-                                <li><a class="text-decoration-none text-secondary" href="#">Our History</a>
+                                <li class="footer_cat-title fw-bold">We</li>
+                                <li><a class="link text-decoration-none" href="./we/team/team.html">Team</a>
                                 </li>
-                                <li><a class="text-decoration-none text-secondary" href="#">Who</a>
-                                </li>
-                                <li><a class="text-decoration-none text-secondary" href="#">Why</a></li>
-                                <li><a class="text-decoration-none text-secondary" href="#">Mission</a>
-                                </li>
-                                <li><a class="text-decoration-none text-secondary" href="#">How to help</a></li>
+                                <li><a class="link text-decoration-none" href="./we/vision/vision.html">Vision</a></li>
+                                <li><a class="link text-decoration-none" href="./wip.html">Donate</a></li>
+                        </nav>
+                    </div>
+                    <div class="col col--12 col--auto--m _text-center _m-b-4 _m-b-0--m">
+                        <nav class="nav nav--vertical nav--large-padding _text-center _text-left--m">
+                            <ul class="list-unstyled">
+                                <li class="footer_cat-title fw-bold">Dreams</li>
+                                <li><a class="link text-decoration-none"
+                                        href="./wip.html" target="_blank"
+                                        rel="noopener noreferrer">Waves</a></li>
+                                <li><a class="link text-decoration-none"
+                                        href="./wip.html"
+                                        target="_blank" rel="noopener noreferrer">ODAS</a></li>
+                                <li><a class="link text-decoration-none"
+                                        href="./wip.html"
+                                        target="_blank" rel="noopener noreferrer">Echos</a></li>
+
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-sm col--12 col--auto--m _text-center _m-b-4 _m-b-0--m">
+                    <div class="col col--12 col--auto--m _text-center _m-b-4 _m-b-0--m">
                         <nav class="nav nav--vertical nav--large-padding _text-center _text-left--m">
                             <ul class="list-unstyled">
-                                <li class="text-dark fw-bold fs-5">Dreams</li>
-                                <li><a class="text-decoration-none text-secondary" href="#" target="_blank"
-                                        rel="noopener noreferrer text-secondary">Env Friend</a></li>
-                                <li><a class="text-decoration-none text-secondary" href="#" target="_blank"
-                                        rel="noopener noreferrer text-secondary">Vapor Vault</a></li>
-                                <li><a class="text-decoration-none text-secondary" href="#" target="_blank"
-                                        rel="noopener noreferrer text-secondary">Iread Manga</a></li>
-                                <li><a class="text-decoration-none text-secondary" href="#" target="_blank"
-                                        rel="noopener noreferrer text-secondary">NCLB</a></li>
+                                <li class="footer_cat-title fw-bold">Group</li>
+                                <li><a class="link text-decoration-none" href="./wip.html">Terms of service</a>
+                                </li>
+                                <li><a class="link text-decoration-none" href="./wip.html">Privacy policy</a></li>
+                                <li><a class="link text-decoration-none" href="./wip.html">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-sm col--12 col--auto--m _text-center _m-b-4 _m-b-0--m">
-                        <nav class="nav nav--vertical nav--large-padding _text-center _text-left--m">
-                            <ul class="list-unstyled">
-                                <li class="text-dark fw-bold fs-5">Company</li>
-                                <li><a class="text-decoration-none text-secondary" href="/terms-of-service">Terms of
-                                        service</a></li>
-                                <li><a class="text-decoration-none text-secondary" href="/privacy-policy">Privacy
-                                        policy</a></li>
-                                <li><a class="text-decoration-none text-secondary" href="/cookie-policy">Cookie
-                                        policy</a></li>
-                                <li><a class="text-decoration-none text-secondary" href="https://help.coolors.co"
-                                        target="_blank" rel="noopener noreferrer">Help center</a></li>
-                                <li><a class="text-decoration-none text-secondary" href="/advertise">Advertise</a></li>
-                                <li><a class="text-decoration-none text-secondary" href="/contact">Contact</a></li>
-                            </ul>
                         </nav>
                     </div>
                 </div>
             </div>
             <!-- Grid container -->
-            <div class="container p-4 pb-0">
+            <div class="container p-4 pb-0 mb-4">
                 <form action="">
                     <!--Grid row-->
                     <div class="row">
                         <!--Grid column-->
                         <div class="col-auto mb-4 mb-md-0">
-                            <p class="pt-2">
-                                <strong>NEWSLETTER</strong>
+                            <p class="pt-2 fw-bold">
+                                NEWSLETTER
                             </p>
                         </div>
                         <!--Grid column-->
-
-                        <!--Grid column-->
-                        <div class="col-md-5 col-12 mb-4 mb-md-0">
+                        <div class="col-md-3 col-12 mb-2 mb-md-0">
                             <!-- Email input -->
                             <div class="form-outline mb-4">
                                 <input type="email" id="form5Example25" class="form-control" />
@@ -107,7 +121,7 @@
                         <!--Grid column-->
                         <div class="col-auto mb-4 mb-md-0">
                             <!-- Submit button -->
-                            <button type="submit" class="btn btn-primary mb-4">
+                            <button type="submit" class="btn btn-primary shadow mb-4">
                                 Subscribe
                             </button>
                         </div>
@@ -119,13 +133,23 @@
             <!-- Grid container -->
 
             <!-- Copyright -->
-            <div class="p-3 bg-light lh-base">
-                <p class="text-secondary"> <span class="text-primary fw-bold fs-5"> Make Out Our Dreams </span> © by me,
-                    <a class="text-decoration-none text-primary" href="#">Guilherme Braga Catão</a> </p>
+            <div class="p-3 bg-light lh-base mt-5">
+                <div class="d-inline-block">
+                    <p class="text-secondary"> <span class="text-primary fw-bold fs-5"> Make Out Our Dreams </span> © by
+                        me,
+                        <a class="text-decoration-none text-primary" href="#">Guilherme Braga Catão</a>
+                    </p>
+                </div>
+                <div class="icon-bundler md-sm">
+                    <i class="bi bi-linkedin"></i>
+                    <i class="bi bi-discord ps-3"></i>
+                    <i class="bi bi-twitter ps-3"></i>
+                    <i class="bi bi-instagram ps-3 "></i>
+                </div>
             </div>
             <!-- Copyright -->
-        </footer>
-
+            </footer>
+        </div>
         <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
         <script src="main.js"></script>
 </body>
